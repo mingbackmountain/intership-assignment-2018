@@ -1,0 +1,42 @@
+{
+  "name": "hotel-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run compile && npm run start",
+    "start": "node dist/index.js",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mingbackmountain1/hotel-api.git"
+  },
+  "author": "Thanakorn Pasangthien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mingbackmountain1/hotel-api/issues"
+  },
+  "homepage": "https://gitlab.com/mingbackmountain1/hotel-api#readme",
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.0",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/pg": "^7.4.14",
+    "bcrypt": "^3.0.6",
+    "class-transformer": "^0.2.3",
+    "class-transformer-validator": "^0.7.1",
+    "class-validator": "^0.9.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.11.0",
+    "typeorm": "^0.2.18",
+    "typescript": "^3.5.2"
+  },
+  "engines": {
+    "node": "12.4.0"
+  }
+}

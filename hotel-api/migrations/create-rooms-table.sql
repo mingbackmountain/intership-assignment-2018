@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS rooms (
+	id SERIAL PRIMARY KEY,
+	no TEXT NOT NULL,
+	floor TEXT Not NULL,
+	is_booked BOOLEAN Not NULL,
+	hotel_id TEXT NOT NULL
+);
