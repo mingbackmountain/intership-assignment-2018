@@ -25,7 +25,7 @@
     "@types/express": "^4.17.0",
     "@types/jsonwebtoken": "^8.3.2",
     "@types/pg": "^7.4.14",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "class-transformer": "^0.2.3",
     "class-transformer-validator": "^0.7.1",
     "class-validator": "^0.9.1",
