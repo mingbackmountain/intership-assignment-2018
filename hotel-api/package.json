@@ -28,7 +28,7 @@
     "bcrypt": "^3.0.6",
     "class-transformer": "^0.2.3",
     "class-transformer-validator": "^0.7.1",
-    "class-validator": "^0.9.1",
+    "class-validator": "^0.14.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
